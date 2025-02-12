@@ -1,0 +1,55 @@
+{
+  "tvbox": {
+    "protocol": "NEC",
+    "comand": {
+      "power": "0xBF40FE01",
+      "home": "0xEE11FE01",
+      "back": "0xE619FE01",
+      "menu": "0xB34CFE01",
+      "mudo": "0xBE41FE01",
+      "mouse": "0xFF00FE01",
+      "up": "0xE916FE01",
+      "down": "0xE51AFE01",
+      "left": "0xAE51FE01",
+      "right": "0xAF50FE01",
+      "ok": "0xEC13FE01",
+      "vol+": "0xE718FE01",
+      "vol-": "0xEF10FE01"
+    }
+  },
+  "tvtcl": {
+    "protocol": "custom",
+    "config": {
+      "frequencia": 38,
+      "pulso_marcacao": 4050,
+      "intervalo_marcacao": 3950,
+      "pulso_espaco": 550,
+      "intervalo_espaco": 2000,
+      "pulso_inicio": 550,
+      "intervalo_inicio": 1000,
+      "tt": 24
+    },
+    "comand": {
+      "power": "0xAB054F",
+      "home": "0xEF010F",
+      "back": "0x1B0E4F",
+      "menu": "0xB34CFE01",
+      "up": "0x6509AF",
+      "down": "0xE501AF",
+      "left": "0x9506AF",
+      "rigth": "0x150EAF",
+      "ok": "0xD002FF",
+      "vol+": "0xB0F4F",
+      "vol-": "0x8B074F",
+      "ch+": "0x4B0B4F",
+      "ch-": "0xCB034F",
+      "input": "0x3A0C5F"
+    }
+  },
+  "somsony": {
+    "protocol": "Sony",
+    "comand": {
+      "power": "0x815"
+    }
+  }
+}
